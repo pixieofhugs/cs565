@@ -3,7 +3,21 @@ body{
 
 }
 
+form {
+    background: white;
+    border: 20px;
+    boder-
+    border-radius: 15px;
+    font-family: helvetica, sans-serif;
+
+    
+}
+
 h1 {
     color: teal;
-    font: helvetica;
+    font-family: helvetica, sans-serif;
 }
+
+
+
+
