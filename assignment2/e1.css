@@ -1,15 +1,17 @@
 body{
     background: linear-gradient(0.25turn, #e66465, #9198e5);
-
+    
 }
 
 form {
+    color: teal;
     background: white;
     border: 20px;
-    boder-
     border-radius: 15px;
     font-family: helvetica, sans-serif;
-
+    width: 300px;
+    margin: auto;
+    text-align: center;
     
 }
 
@@ -18,6 +20,15 @@ h1 {
     font-family: helvetica, sans-serif;
 }
 
+input[type = button], input[type=submit] {
+    background: pink;
+    border: 0px;
+    display: inline-block;
+    
+}
 
 
 
+input[type = button]:hover, input[type=submit]:hover {
+    background: turquoise;
+}
