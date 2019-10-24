@@ -1,3 +1,9 @@
+body{
+    background: linear-gradient(0.25turn, #e66465, #9198e5);
+
+}
+
 h1 {
-    color: #466664
+    color: teal;
+    font: helvetica;
 }
