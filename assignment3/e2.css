@@ -1,0 +1,35 @@
+.flex-grid {
+  display: flex;
+
+}
+
+
+.col-sm-1 {
+    background: blue;
+    border: 1px solid white;
+}
+
+.col-sm-3 {
+    background:purple;
+    border: 1px solid white;
+}
+
+.col-md-4 {
+    background:teal;
+    border: 1px solid white;
+}
+
+.col-lg-6 {
+    background: greenyellow;
+    border: 1px solid white;
+}
+
+.col-lg-8 {
+    background: coral;
+    border: 1px solid white;
+}
+
+.col-lg-12 {
+    background: green;
+    border: 1px solid white;
+}

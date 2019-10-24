@@ -1,0 +1,11 @@
+.flex-box-one {
+    display: flex;
+  }
+ 
+  .col {
+    flex: 2;
+    background: darkslategray;
+    color: white;
+    border: 2px solid white
+    
+  }
