@@ -29,13 +29,10 @@ ol{
     background: white;
     border-radius: .5em;
     text-align: left;
-    padding: 1em;
+    padding: .5em;
     display: inline-block;
     overflow: auto;
 
 }
 
-li{
-    padding-left: 1em;
 
-}
