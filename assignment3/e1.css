@@ -1,0 +1,16 @@
+.box {
+padding: 20px;
+width: 300px;
+border: black 2px solid;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+}
+
+input[type=submit],input[type=button]{
+
+    border: 1px solid white;
+    border-radius: 1ch;
+    background: #33A4FF;
+    color: white;
+}
