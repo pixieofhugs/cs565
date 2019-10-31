@@ -1,69 +1,9 @@
-.row {
-    display: inline-grid;
-    grid-template-columns: repeat(10, 1fr);
+.cell {
+   
     padding: 25px;
-  }
-  
-  .box1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 10;
+
     background: darkslategray;
     color: white;
     border: 2px solid white;
     border-radius: 5px;
-    padding: 25px;
   }
-  
-  .box2 {
-    grid-column-start: 5;
-    grid-column-end: 11;
-    grid-row-start: 1;
-    grid-row-end: 6;
-    background: darkslategray;
-    color: white;
-    border: 2px solid white;
-    border-radius: 5px;
-    padding: 25px;
-    
-  }
-  
-  .box3{
-    grid-column-start: 5;
-    grid-column-end: 11;
-    grid-row-start: 6.5;
-    grid-row-end: 7;
-    background: darkslategray;
-    color: white;
-    border: 2px solid white;
-    border-radius: 5px;
-    padding: 25px;
-  }
-  
-  .box4 {
-    background: darkslategray;
-    color: white;
-    border: 2px solid white;
-    border-radius: 5px;
-    padding: 25px;
-    grid-column-start: 5;
-    grid-column-end: 11;
-    grid-row-start: 7.5;
-    grid-row-end: 8;
-    
-  }
-  
-  .box5 {
-    background: darkslategray;
-    color: white;
-    border: 2px solid white;
-    border-radius: 5px;
-    padding: 25px;
-    grid-column-start: 1;
-    grid-column-end: 11;
-    grid-row-start: 10;
-    grid-row-end: 11;
-    
-  }
-  
