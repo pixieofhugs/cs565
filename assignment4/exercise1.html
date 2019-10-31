@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="../assignment3/e1.css" />
+    <script type="text/javascript">
+        function fizzbuzz(input){
+            if(input % 3 == 0 && input%5 != 0){
+                console.log("fizz")
+            }
+            if(input % 3 != 0 && input%5 == 0){
+                console.log("buzz")
+            }
+            if(input % 3 == 0 && input%5 == 0){
+                console.log("fizzbuzz")
+            }
+            else{
+                console.log(input)
+            }
+        }
+        for(i= 0; i< 100; ++i){
+            fizzbuzz(i)
+        }
+    </script>
+
+
+</head>
+
+  <body>
+
+
+  </body>
+  </html>

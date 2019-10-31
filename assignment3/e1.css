@@ -14,3 +14,8 @@ input[type=submit],input[type=button]{
     background: #33A4FF;
     color: white;
 }
+
+input[type=submit]:hover,input[type=button]:hover{
+    background: darkgrey;
+
+}
