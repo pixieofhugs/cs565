@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    
+    <script type="text/javascript">
+        
+        
+        function reportWindowSize() {
+            document.getElementById("height").innerText = window.innerHeight;
+            document.getElementById("width").innerText = window.innerWidth;
+        }
+        //        
+        window.onresize = reportWindowSize;
+        </script>
+
+
+</head>
+
+  <body>
+        <p>Resize the browser window to fire the <code>resize</code> event.</p>
+        <p>Window height: <div id="height"></div></p>
+        <p>Window width: <div id="width"></div></p>
+  </body>
+
+
+
+  </html>
