@@ -7,7 +7,7 @@ margin-right: auto;
 margin-top: 50px;
 }
 
-input[type=submit],input[type=button]{
+input[type=submit],button, input[type=reset]{
 
     border: 1px solid white;
     border-radius: 1ch;
@@ -15,7 +15,7 @@ input[type=submit],input[type=button]{
     color: white;
 }
 
-input[type=submit]:hover,input[type=button]:hover{
+input[type=submit]:hover,button:hover,input[type=reset]:hover{
     background: darkgrey;
 
 }
