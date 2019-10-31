@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assignment3/e1.css"
+    />
+
+    <script type="text/javascript">
+        function submit(){    
+            document.body.style.background = generateHex()
+        }
+        function generateHex() {
+          '#' + Math.floor(Math.random() * 16777216).toString(16);
+      }
+
+    </script>
+  </head>
+
+  <body action="javascript:submit();">
+    <p>Here are some words</p>
+    <div class="form" action="javascript:submit();">
+      <button name="submit" type="submit" value="Submit" class="submit">
+        Submit
+      </button>
+    </div>
+  </body>
+</html>
